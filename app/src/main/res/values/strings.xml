@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IGLU</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="Compute_distance_and_travel_time">Compute distance and travel time</string>
+    <string name="Connect_and_update_JSON">Connect and update JSON</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+</resources>
+
