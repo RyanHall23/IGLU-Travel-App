@@ -9,161 +9,159 @@
 
     <TextView
         android:id="@+id/countryHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:text="Country:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedCountry"
-        android:layout_width="125dp"
-        android:layout_height="35dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginTop="8dp"
-        android:text="Country:"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/capitalHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
-        android:text="Capital City:"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/selectedCapital"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="84dp"
-        android:text="Country:"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:text="(Selected Country)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/populationHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
         android:text="Population:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedPopulation"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="48dp"
-        android:text="Country:"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:text="(Selected Population)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/capitalHeader"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Capital City:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selectedCapital"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="(Selected Capital)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
         android:id="@+id/languagesHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="124dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
         android:text="Languages:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedLanguages"
-        android:layout_width="140dp"
-        android:layout_height="31dp"
-        android:layout_marginEnd="108dp"
-        android:layout_marginTop="124dp"
-        android:text="Country:"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:text="(Selected Languages)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/currencyHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
         android:text="Currency:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedCurrency"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="160dp"
-        android:text="Country:"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="(Selected Currency)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/cityHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="192dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
         android:text="Selected City:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedCity"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="192dp"
-        android:text="None Selected"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:text="No City Selected"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/cityPopHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="284dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
         android:text="City Population:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedCityPop"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="284dp"
-        android:text="None Selected"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:text="No City Selected"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/cityAPHeader"
-        android:layout_width="120dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="228dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="350dp"
         android:text="Nearest Airport:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/selectedCityAP"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="228dp"
-        android:text="None Selected"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="348dp"
+        android:text="No City Selected"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -171,8 +169,8 @@
         android:id="@+id/cityWikiButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
         android:text="City"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -181,22 +179,24 @@
         android:id="@+id/airportWikiButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:layout_marginStart="132dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="190dp"
         android:text="Airport"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/cityWikiButton" />
 
     <ImageButton
         android:id="@+id/cityFavButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/airportWikiButton"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@+id/cityWikiButton"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 

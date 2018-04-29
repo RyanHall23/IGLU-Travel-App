@@ -13,17 +13,17 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".LocationViewActivity" />
         <activity android:name=".NotesActivity" />
         <activity android:name=".NotesAddEntryActivity" />
-        <activity android:name=".DistanceCalculatorActivity" />
         <activity android:name=".ViewEntryActivity" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".FavouritesAcivity">
-        </activity>
+        <activity android:name=".FavouritesAcivity"></activity>
+        <activity android:name=".WeatherActivity"></activity>
     </application>
 
 </manifest>

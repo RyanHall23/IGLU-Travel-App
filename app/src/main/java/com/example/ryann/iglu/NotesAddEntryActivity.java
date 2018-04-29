@@ -34,7 +34,8 @@ public class NotesAddEntryActivity extends AppCompatActivity
         if(title.isEmpty() || body.isEmpty())
         {
             Toast.makeText(this, "Both 'title' and 'Description' sections must be filled", Toast.LENGTH_SHORT).show();
-        } else
+        }
+        else
         {
             // store in DB
             DatabaseOpenHelper doh = new DatabaseOpenHelper(this);

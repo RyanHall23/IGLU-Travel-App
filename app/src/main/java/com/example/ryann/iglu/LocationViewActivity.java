@@ -66,9 +66,9 @@ public class LocationViewActivity extends AppCompatActivity
         TextView selectedLanguages = findViewById(R.id.selectedLanguages);
         selectedLanguages.setText(SelectedLanguage);
 
-        Button airportWikiButton = (Button) findViewById(R.id.airportWikiButton);
-        Button cityWikiButton = (Button) findViewById(R.id.cityWikiButton);
-        ImageButton cityFavButton = (ImageButton) findViewById(R.id.cityFavButton);
+        Button airportWikiButton = findViewById(R.id.airportWikiButton);
+        Button cityWikiButton = findViewById(R.id.cityWikiButton);
+        ImageButton cityFavButton = findViewById(R.id.cityFavButton);
         airportWikiButton.setVisibility(View.GONE);
         cityWikiButton.setVisibility(View.GONE);
         cityFavButton.setVisibility(View.GONE);

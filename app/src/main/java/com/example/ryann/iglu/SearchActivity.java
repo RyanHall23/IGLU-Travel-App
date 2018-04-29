@@ -72,7 +72,7 @@ public class SearchActivity extends AppCompatActivity
 
     private void displayList()
     {
-        autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.AutoSearch);
+        autoCompleteTextView = findViewById(R.id.AutoSearch);
 
         if (countrySearch)
         {

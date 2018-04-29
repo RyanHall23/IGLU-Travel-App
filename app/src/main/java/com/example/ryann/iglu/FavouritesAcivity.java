@@ -25,7 +25,6 @@ public class FavouritesAcivity extends AppCompatActivity
         getFavourites();
     }
 
-
     public void getFavourites()
     {
         String[] Cities = new String[50];
